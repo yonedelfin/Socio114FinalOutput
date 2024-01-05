@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greetings!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="parent">
+    <div id="content" class="grid-container">
+        <div id="dialogueBox" class="grid-item">
+          <p id="dialogueText"></p>
+        </div>
+        <div class="secondColumn">
+        <div id="imgContainer" class="grid-item">
+          <img src="avatar.png" alt="Keeper of Nature" id="bottomImage">
+        </div>
+        <div id="buttonContainer" class="grid-item">
+          <button id="nextButton" onclick="nextButtonClick()">Next</button>
+        </div>
+        </div>
+      </div>
+    <div class="expContainer">
+      <button id="explainer">Explainer</button>
+      <button id="back" onclick="goBack()">Back to Home Page</button>
+    </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

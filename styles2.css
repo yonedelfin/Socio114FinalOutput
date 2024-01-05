@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+body {
+    margin: 0;
+    background-image: url('stardewbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+.mainBox {
+  display: grid;
+  text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+.parent {
+    display: flex;
+    padding: 20px;
+    background-color: #E8CE80;
+    border: 8px solid #c47309; 
+    width: 1000px;
+    border-radius: 8px;
+}
+
+.back-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+#back {
+  padding: 20px;
+  padding: 10px;
+  background-color: #E8CE80;
+  border: 7px solid #c47309; 
+  cursor: pointer;
+  font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#nextPage {
+  padding: 20px;
+  padding: 10px;
+  background-color: #E8CE80;
+  border: 7px solid #c47309; 
+  cursor: pointer;
+  font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#back:hover {
+  transform: scale(1.1); 
+}
+
+#nextPage:hover {
+  transform: scale(1.1); 
+}
+
+
